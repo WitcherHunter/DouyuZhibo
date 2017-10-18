@@ -12,6 +12,7 @@
 		CB61E15E1F974F4C00DAE7A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB61E15D1F974F4C00DAE7A4 /* Assets.xcassets */; };
 		CB61E1611F974F4C00DAE7A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB61E15F1F974F4C00DAE7A4 /* LaunchScreen.storyboard */; };
 		CB61E16C1F974F4D00DAE7A4 /* DouyuZhiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB61E16B1F974F4D00DAE7A4 /* DouyuZhiboTests.swift */; };
+		CB66CC231F975C5D00B4174D /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB66CC221F975C5D00B4174D /* Main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		CB61E1671F974F4D00DAE7A4 /* DouyuZhiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouyuZhiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB61E16B1F974F4D00DAE7A4 /* DouyuZhiboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouyuZhiboTests.swift; sourceTree = "<group>"; };
 		CB61E16D1F974F4D00DAE7A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB66CC221F975C5D00B4174D /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		CB66CC1C1F975B5500B4174D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				CB66CC221F975C5D00B4174D /* Main.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB66CC231F975C5D00B4174D /* Main.swift in Sources */,
 				CB61E1571F974F4C00DAE7A4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
